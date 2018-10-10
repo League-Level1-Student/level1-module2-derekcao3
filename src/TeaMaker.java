@@ -4,7 +4,10 @@
  */
 
 public class TeaMaker {
-
+public static void main(String[] args) {
+	Cup cup = new Cup();
+	cup.makeTea(teabag, hotWater);
+}
 	/* Figure out how to make a cup of tea using the classes below */
 
 }
