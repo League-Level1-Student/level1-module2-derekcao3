@@ -1,7 +1,23 @@
 
 public class Vault {
-public int number = 345694;
-public static void main(String[] args) {
-	
+
+private int code = 3000;
+
+Vault(int code){
+	this.code = code;
 }
-}	
+
+
+
+boolean tryCode(int number){
+	if(code == number) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+}
+
+	
